@@ -32,8 +32,9 @@ export function VenueSpotlight() {
           <Image
             src={ROYAL_LAKES.images.courseWide}
             alt="Fairways and greens at Royal Lakes Golf & Country Club"
-            width={900}
-            height={560}
+            width={720}
+            height={448}
+            quality={75}
             className="h-auto w-full object-cover"
             sizes="(max-width: 640px) 100vw, 50vw"
           />
@@ -45,8 +46,9 @@ export function VenueSpotlight() {
           <Image
             src={ROYAL_LAKES.images.lakes}
             alt="Lakes on the Royal Lakes property"
-            width={900}
-            height={560}
+            width={720}
+            height={448}
+            quality={75}
             className="h-auto w-full object-cover"
             sizes="(max-width: 640px) 100vw, 50vw"
           />
