@@ -56,26 +56,6 @@ const items = [
     ),
   },
   {
-    id: "wager",
-    title: "Wagering (optional)",
-    body: (
-      <div className="space-y-3 text-[var(--color-ink)]/85">
-        <p>
-          There&apos;s a friendly wager option for those who want to play for a
-          little cash. Participation is completely optional — if you&apos;d
-          rather just come out, drink some beers, and enjoy the day, that&apos;s
-          exactly what this is for too.
-        </p>
-        <p>
-          We&apos;re open to ideas on the best format for the pot — side bets,
-          skins, a winner-take-all pool, or something else entirely. Drop your
-          suggestions in the group chat and we&apos;ll sort it out before
-          tournament day.
-        </p>
-      </div>
-    ),
-  },
-  {
     id: "rsvp",
     title: "RSVP & registration",
     body: (
