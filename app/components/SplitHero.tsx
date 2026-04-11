@@ -85,8 +85,7 @@ export function SplitHero() {
             Beers &amp; Bogeys
           </h2>
           <p className="mt-2 text-xs leading-relaxed text-white/90 sm:mt-3 sm:text-base">
-            {ROYAL_LAKES.shortName} · Flowery Branch, GA · ~20 players · Sign up
-            below
+            18 Players · May 16, 2026 · Location TBD · RSVP by Apr 17
           </p>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-2 sm:mt-6 sm:gap-3">
             <Link
