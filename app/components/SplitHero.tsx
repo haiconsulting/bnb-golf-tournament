@@ -43,7 +43,7 @@ export function SplitHero() {
             className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.04]"
           />
           <span className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-t from-black/55 via-black/10 to-transparent md:bg-gradient-to-r md:from-black/40 md:via-transparent md:to-transparent" />
-          <span className="pointer-events-none absolute right-4 top-4 z-20 text-right font-[family-name:var(--font-serif)] text-xl font-semibold tracking-tight text-white drop-shadow-md sm:right-5 sm:top-5 md:right-8 md:top-1/2 md:-translate-y-1/2 md:text-3xl">
+          <span className="pointer-events-none absolute right-4 top-4 z-20 text-right font-[family-name:var(--font-serif)] text-xl font-semibold tracking-tight text-white drop-shadow-md sm:right-5 sm:top-5 md:left-8 md:right-auto md:top-1/2 md:-translate-y-1/2 md:text-left md:text-3xl">
             Beers
           </span>
         </button>
@@ -85,8 +85,7 @@ export function SplitHero() {
             Beers &amp; Bogeys
           </h2>
           <p className="mt-2 text-xs leading-relaxed text-white/90 sm:mt-3 sm:text-base">
-            {ROYAL_LAKES.shortName} · Flowery Branch, GA · ~20 players · Sign up
-            below
+            18 Players · May 16, 2026 · Location TBD · RSVP by Apr 17
           </p>
           <div className="mt-5 flex flex-wrap items-center justify-center gap-2 sm:mt-6 sm:gap-3">
             <Link

@@ -20,13 +20,16 @@ export default function HomePage() {
           Beers and Bogeys Invitational
         </h2>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-[var(--color-ink)]/80">
-          We&apos;re hosting an intimate{" "}
+          Welcome to the first (hopefully annual){" "}
           <span className="font-semibold text-[var(--color-ink)]">
-            ~20 player
+            Beers &amp; Bogeys Open
+          </span>
+          {" "}— an 18-player scramble tournament on{" "}
+          <span className="font-semibold text-[var(--color-ink)]">
+            Saturday, May 16th, 2026
           </span>{" "}
-          outing at Royal Lakes Golf &amp; Country Club in Flowery Branch,
-          Georgia. This page has schedule notes, venue details, and sign-up —
-          hover the hero on desktop to see the split panels flex.
+          at a venue to be announced. RSVP by April 17th to lock in your spot
+          and get randomly drawn into one of 9 two-man teams.
         </p>
 
         <div className="mt-10">

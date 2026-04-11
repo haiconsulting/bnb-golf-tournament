@@ -10,19 +10,16 @@ const items = [
       <ul className="space-y-3 text-[var(--color-ink)]/85">
         <li>
           <span className="font-semibold text-[var(--color-ink)]">Date:</span>{" "}
-          <span className="italic">TBD — update before invitations</span>
+          Saturday, May 16th, 2026
         </li>
         <li>
-          <span className="font-semibold text-[var(--color-ink)]">Course:</span>{" "}
-          <a
-            href="https://royallakesgolfcc.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-[var(--color-pine)] underline decoration-[var(--color-gold)]/50 underline-offset-2 hover:decoration-[var(--color-gold)]"
-          >
-            Royal Lakes Golf &amp; Country Club
-          </a>
-          , Flowery Branch, GA (tee sheet to follow)
+          <span className="font-semibold text-[var(--color-ink)]">Location:</span>{" "}
+          TBD — we&apos;re locking in a course that can accommodate our full
+          field of 18. Suggestions welcome!
+        </li>
+        <li>
+          <span className="font-semibold text-[var(--color-ink)]">RSVP deadline:</span>{" "}
+          April 17th — all 18 spots must be confirmed before teams are drawn.
         </li>
         <li>
           <span className="font-semibold text-[var(--color-ink)]">Arrival:</span>{" "}
@@ -33,15 +30,27 @@ const items = [
   },
   {
     id: "format",
-    title: "Format & vibe",
+    title: "Format & rules",
     body: (
       <ul className="list-disc space-y-2 pl-5 text-[var(--color-ink)]/85">
-        <li>Simple RSVP: name, handicap, and phone in the embedded form.</li>
         <li>
-          Final competitive format (scramble, best ball, etc.) confirmed closer
-          to the event.
+          <span className="font-semibold text-[var(--color-ink)]">Format:</span>{" "}
+          2-man scramble — standard scramble rules apply.
         </li>
-        <li>Cart and range details go out with confirmed teams.</li>
+        <li>
+          <span className="font-semibold text-[var(--color-ink)]">Scoring:</span>{" "}
+          Straight stroke play across all 18 holes.
+        </li>
+        <li>
+          <span className="font-semibold text-[var(--color-ink)]">Mulligans:</span>{" "}
+          Each team gets 1 mulligan per 9 holes (use &apos;em wisely).
+        </li>
+        <li>
+          <span className="font-semibold text-[var(--color-ink)]">Teams:</span>{" "}
+          18 players split into 9 two-man teams, drawn randomly after the RSVP
+          deadline. If pairings produce obvious favorites we&apos;ll tweak the
+          draw to keep things fair across all skill levels.
+        </li>
         <li>Cold beer, warm sun, questionable swings — all welcome.</li>
       </ul>
     ),
@@ -50,11 +59,17 @@ const items = [
     id: "rsvp",
     title: "RSVP & registration",
     body: (
-      <p className="text-[var(--color-ink)]/85">
-        The embedded Google Form asks for your name, handicap, and phone number
-        only — we use that for headcount and pairing. No account or password on
-        this site.
-      </p>
+      <div className="space-y-3 text-[var(--color-ink)]/85">
+        <p>
+          The embedded Google Form asks for your name, handicap, and phone
+          number only — we use that for headcount and pairing. No account or
+          password required.
+        </p>
+        <p className="font-medium text-[var(--color-ink)]">
+          Deadline: April 17th. Teams are drawn randomly once all 18 RSVPs are
+          in.
+        </p>
+      </div>
     ),
   },
 ] as const;

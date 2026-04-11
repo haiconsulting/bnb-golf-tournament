@@ -1,9 +1,9 @@
 "use client";
 
 const stats = [
-  { label: "Field size", value: "~20", hint: "players" },
-  { label: "Venue", value: "Royal Lakes", hint: "Flowery Branch, GA" },
-  { label: "Teams", value: "4", hint: "per group (typical)" },
+  { label: "Field size", value: "18", hint: "players" },
+  { label: "Date", value: "May 16", hint: "2026 · RSVP by Apr 17" },
+  { label: "Teams", value: "9 × 2", hint: "man scramble teams" },
 ] as const;
 
 export function StatChips() {
