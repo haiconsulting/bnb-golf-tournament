@@ -10,7 +10,7 @@ const items = [
       <ul className="space-y-3 text-[var(--color-ink)]/85">
         <li>
           <span className="font-semibold text-[var(--color-ink)]">Date:</span>{" "}
-          Saturday, May 16th, 2026
+          Saturday, May 30th, 2026
         </li>
         <li>
           <span className="font-semibold text-[var(--color-ink)]">Location:</span>{" "}
