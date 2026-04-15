@@ -26,7 +26,7 @@ export default function HomePage() {
           </span>
           {" "}— an 18-player scramble tournament on{" "}
           <span className="font-semibold text-[var(--color-ink)]">
-            Saturday, May 16th, 2026
+            Saturday, May 30th, 2026
           </span>{" "}
           at a venue to be announced. RSVP by April 17th to lock in your spot
           and get randomly drawn into one of 9 two-man teams.
